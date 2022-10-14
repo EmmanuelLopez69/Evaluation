@@ -11,7 +11,7 @@ namespace Evaluation.Services.userServices
     {
         
         private static List<GetUserDto> usuarios = new List<GetUserDto>{
-            new User()
+            //new User()
         };
         private readonly IMapper _mapper;
         public UserServices(IMapper mapper)
